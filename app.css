@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+textarea{
+    height: 10vh;
+    width: 80%;
+    display: block;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding: 1rem;    
+}
+
+#output{
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        padding: 1rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        font-style: italic;
+}
+
+#txt-input{
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    text-shadow: black;
+    font-style: italic;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.div1{
+    font-size: larger;
+    font-style: italic;
+    margin-top: 2rem;
+    text-align: center;
+    margin-right: 100px !important;
+}
+
+#btn-translate{
+    margin-top: 2rem;
+    margin-left: 40%;
+	padding: 1.2em 2em;
+	text-decoration: none;
+	text-align: center;
+    cursor: pointer;
+    width: 15%;
+    user-select: none;
+    font-style: italic;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 4px;
+}
+.about{
+    background: linear-gradient(135deg, #6e8efb, #c299f5);
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.content{
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-style: italic;
+    font-size: large;
+    padding-bottom: 4.4rem;
+    text-align: center;
+    padding-top: 1rem;
+}
