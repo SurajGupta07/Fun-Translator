@@ -19,25 +19,26 @@ textarea{
         padding: 1rem;
         margin-left: 5rem;
         margin-top: 2rem;
-        font-style: italic;
+        font-style: normal;
 }
 
 #txt-input{
-    font-style: italic;
+    font-style: normal;
+    font-weight: 500;
 }
 
 h1{
     text-align: center;
     text-shadow: black;
-    font-style: italic;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-style: normal;
+    background: linear-gradient(135deg, #0b43f8, #a777e3);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .div1{
     font-size: larger;
-    font-style: italic;
+    font-style: normal;
     margin-top: 2rem;
     text-align: center;
     margin-right: 100px !important;
@@ -52,23 +53,24 @@ h1{
     cursor: pointer;
     width: 15%;
     user-select: none;
-    font-style: italic;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-style: normal;
+    background: linear-gradient(135deg, #6989f3, #ab6ef5);
     border-radius: 4px;
 }
 .about{
-    background: linear-gradient(135deg, #6e8efb, #c299f5);
+    background: linear-gradient(135deg, #6989f3, #c299f5);
     margin-top: 2rem;
-    font-style: italic;
+    font-style: normal;
     font-size: larger;
+    font-weight: bold;
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
 .content{
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
-    font-style: italic;
+    background: linear-gradient(135deg, #6989f3, #a777e3);
+    font-style: normal;
     font-size: large;
     padding-bottom: 4.4rem;
     text-align: center;
