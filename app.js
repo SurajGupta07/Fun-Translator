@@ -1,18 +1,16 @@
-var btnTranslate = document.querySelector("#btn-translate");
-var txtInput = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#output");
-var serverURL = "https://api.funtranslations.com/translate/groot.json";
+let btnTranslate = document.querySelector("#btn-translate");
+let txtInput = document.querySelector("#txt-input");
+let outputDiv = document.querySelector("#output");
+let serverURL = "https://api.funtranslations.com/translate/groot.json";
 
-function getTranslationURL(text){
-    return serverURL + "?" + "text=" + text 
-}
+const getTranslationURL = (text) => serverURL + "?" + "text=" + text; 
 
-function errorHandler(error){
+const errorHandler => (error){
     console.log("Error", error);
     alert("Server is down, please try again later");
 }
 
-function clickHandler(){
+const clickHandler = () =>{
     outputDiv.innerText =  txtInput.value
     var textInput = txtInput.value;//taking input
     fetch(getTranslationURL(textInput))
